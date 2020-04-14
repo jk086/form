@@ -1,0 +1,182 @@
+body{
+
+	margin-right: 20%;
+	margin-left: 20%;
+	font-family: cursive;
+
+}
+
+body input{
+	max-width: 400px;
+    padding: 5px;
+    background-color: lightgrey;
+}
+
+body select{
+
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: lightgrey;
+  cursor: pointer;
+  user-select: none;
+
+}
+
+div.logo img{
+
+	background-repeat: no-repeat;
+	height: 6em;
+	float: left;
+	
+}
+
+div p.title{
+    display: inline-block;
+	margin-left: 0.5em;
+	margin-top: 1.25em;
+	font-size: 2.5em;
+	font-family: cursive;
+	float: left;
+	line-height: 0;
+}
+
+div.container{
+ 
+	display: flex;
+	
+}
+
+div.container1{
+ 
+	font-family: none;
+	
+}
+
+ol li span{
+	color: red;
+}
+
+hr{
+	opacity: 0.25;
+}
+
+
+ul{
+	list-style: none;
+}
+
+/* ------------------------------------------------------------- box style ------------------------------------------------*/
+
+.panel-1 {
+    border-radius: 10px;
+    border: solid 1px #1E90FF;
+}
+.big-heading1 > h4{
+    margin-top: 0px;
+    border-radius: 10px 10px 0px 0px;
+    background-color:#1E90FF;
+    padding: 20px;  
+}
+.form-1{
+    border-bottom: solid 1px grey;
+}
+
+.heading-2 > h4 {
+    margin-top: 0px;
+    padding: 20px;
+}
+.form-group2 > li {
+    padding: 5px;
+}
+.form-2 {
+    border-bottom: solid 1px grey;
+}
+.form-3 {
+    border-bottom: solid 1px grey;
+}
+.heading-3 > h4 {
+    margin-top: 0px;
+    padding: 20px;
+
+}
+.heading-4 > h4 {
+    margin-top: 0px;
+    padding: 20px;
+
+}
+
+/*-------------------------------------------------------------------- box 2 -------------------------------------------------------------*/
+.panel-2{
+    border-radius: 10px;
+    margin-top: 20px;
+    border: solid 1px lightgreen;
+}
+.big-heading2 > h4 {
+    margin-top: 0px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: lightgreen;
+    padding: 20px;  
+}
+.form-group5 > li {
+    padding: 2px 5px 5px 5px;
+    margin-bottom: 2px;
+    
+}
+
+/*--------------------------------------------------------------- box 3 -----------------------------------------------*/
+.panel-3 {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: solid 1px greenyellow;
+}
+.big-heading3 > h4 {
+    border-radius: 10px 10px 0px 0px;
+    background: greenyellow;
+    margin-top: 0px;
+    padding: 20px;
+}
+.form-group6 > li {
+    padding: 2px 5px 5px 5px;
+    margin-bottom: 2px;
+}
+
+/*----------------------------------------------------------------- box 4 ------------------------------------------------*/
+.panel-4 {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: solid 1px lightblue;
+}
+.big-heading4 > h4{
+    background: lightblue;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 0px;
+    padding: 20px;
+    
+}
+.form-group7 > li {
+    padding: 2px 5px 5px 5px;
+    margin-bottom: 2px;
+}
+
+
+tbody > tr >td {
+    padding: 5px;
+}
+.btn {
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    margin-top: 1em;
+}
+.btn > input {
+	background-color: #333;
+	color: white;
+	border: none;
+	padding: 1em 2em;
+	text-decoration: none;
+	cursor: pointer;
+	border-radius: 1em;
+}
+span{
+    color: red;
+}
